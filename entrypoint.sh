@@ -1,4 +1,7 @@
 #!/bin/sh
+
+set -ex
+
 echo 'Installing wasm-pack'
 cargo install wasm-pack
 echo 'Building project...'
