@@ -7,5 +7,4 @@ ENV LANGUAGE en_US.UTF-8
 
 ADD entrypoint.sh /entrypoint.sh
 
-
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["sh", "/entrypoint.sh"]
